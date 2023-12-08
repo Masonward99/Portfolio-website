@@ -1,6 +1,7 @@
 import './App.css';
 import Footer from './pages/Footer';
 import Header from './pages/Header';
+import pdf from './MasonWardCV'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             enjoyed it so much I decided to start my bootcamp before I had
             finished university.
           </p>
-          <a href="./src/MasonWardCV.pdf" target="blank">
+          <a href={pdf} target="blank">
             <p>Cv</p>
           </a>
           <h3>Experience</h3>
