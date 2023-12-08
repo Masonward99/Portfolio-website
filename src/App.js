@@ -21,7 +21,7 @@ function App() {
             enjoyed it so much I decided to start my bootcamp before I had
             finished university.
           </p>
-          <a href="src/MasonWardCV.pdf" target="blank">
+          <a href="./src/MasonWardCV.pdf" target="blank">
             <p>Cv</p>
           </a>
           <h3>Experience</h3>
