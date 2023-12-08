@@ -13,8 +13,7 @@ function Header(){
             <a href="#App-Footer" className="Header-Item">
               <div>Contact</div>
             </a>
-          </li>
-          
+          </li>      
         </ul>
       </header>
     );
