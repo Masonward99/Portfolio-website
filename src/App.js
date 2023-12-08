@@ -1,7 +1,7 @@
 import './App.css';
 import Footer from './pages/Footer';
 import Header from './pages/Header';
-import pdf from './MasonWardCV'
+import pdf from './MasonWardCV.pdf'
 
 function App() {
   return (
