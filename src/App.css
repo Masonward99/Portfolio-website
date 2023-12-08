@@ -97,3 +97,12 @@ html {
   background-color: white;
   color: black;
 }
+.App-Main {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 0px;
+  text-align: left;
+}
+h1, h2, h3 {
+  text-align: center;
+}
