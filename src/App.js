@@ -2,6 +2,7 @@ import './App.css';
 import Footer from './pages/Footer';
 import Header from './pages/Header';
 import pdf from './MasonWardCV.pdf'
+import Projects from './pages/Projects/Projects';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <main className="App-Main">
         <h1>Mason Ward</h1>
+        <Projects/>
         <section href="about">
           <h2>About</h2>
           <p>

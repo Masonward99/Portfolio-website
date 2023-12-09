@@ -106,3 +106,12 @@ html {
 h1, h2, h3 {
   text-align: center;
 }
+.Selected-Button {
+  background-color: blue;
+  color: white;
+}
+.Component-List {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
