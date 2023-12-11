@@ -1,20 +1,30 @@
 function Header(){
     return (
-      <header className="App-header">
+      <header >
+        <div className="App-header">
         <a href="#top">
           <div className="Header-Title">
             <p>Mason Ward</p>
-          </div>     
+          </div>
         </a>
         <ul>
-          <li className="Header-Item">About</li>
-          <li className="Header-Item">Projects</li>
+          <li className="Header-Item">
+            <a href="#About" className="Header-Item">
+              <div>About</div>
+            </a>
+          </li>
+          <li className="Header-Item">
+            <a href="#Projects" className="Header-Item">
+              <div>Projects</div>
+            </a>
+          </li>
           <li className="Header-Item">
             <a href="#App-Footer" className="Header-Item">
               <div>Contact</div>
             </a>
-          </li>      
-        </ul>
+          </li>
+          </ul>
+        </div>
       </header>
     );
 }
