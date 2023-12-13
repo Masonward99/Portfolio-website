@@ -2,13 +2,14 @@ import CV from '../MasonWardCV.pdf'
 import CVLogo from '../assets/CV.png'
 import github from '../assets/github-logo.png'
 import email from '../assets/Email.png'
+
 function About() {
     return (
-      <section id="about">
+      <section id="About">
         <h2>About Me</h2>
         <p>
-          Recent graduate from a software development bootcamp, currently
-          studying Computing and IT at the open university.
+            Currently studying Computing and IT at the Open University.
+            I previously attended a JavaScript bootcamp. Looking to begin my carrer in tech.
         </p>
             <div className='aboutLinks'>
                 <div>

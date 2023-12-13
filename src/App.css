@@ -7,6 +7,7 @@
 }
 .heroDiv {
   height: calc(100vh - 50px);
+  max-width: 100vw;
   background-image: url(./assets/Background.jpg);
   background-position: center center;
   display: flex;
@@ -32,6 +33,7 @@
  backdrop-filter: blur(50px);
  padding: 20px;
  border: radius 5px; 
+ width: calc(100% - 40px);
 }
 header {
   background-color: rgb(22, 20, 20);
@@ -98,7 +100,7 @@ header {
   background-color: rgb(22, 20, 20);
   color: white;
   width: 100%;
-  margin-top: auto;
+  margin-top: 50px;
   text-align: center;
 }
 #App-Footer div {
@@ -168,22 +170,18 @@ html {
   width: 100%;
   overflow: hidden;
 }
- h2, h3, h4, h5 {
+ h2, h3, h4{
   text-align: center;
-  font-size: 4em;
-  margin: 15px;
 }
 h1 {
-  font-size: 7em;
+  font-size: 4em;
   text-align: center;
   color: white;
   height: max-content;
   width: max-content;
   margin: auto;
 }
-p {
-  font-size: 1.5em;
-}
+
 .logoImage {
   height: 80px;
   width: 80px;
@@ -195,6 +193,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   max-width: 400px;
+  margin-top: 30px;
 }
 .aboutLinks p {
   margin-top: 5px;
@@ -202,24 +201,57 @@ p {
 .aboutLinks div {
   max-width: 80px;
 }
+.aboutLinks img:hover{
+  border:2px solid orange;
+}
 img {
   max-width: 100%;
   object-fit: cover;
 }
 
-#NcGames div {
+.linkButton {
   display: flex;
   justify-content: space-between;
   max-width: 400px;
   margin: auto;
   text-align: center;
 }
-#NcGames a {
+.linkButton a {
   flex-grow: 1;
+  max-width: 120px;
+  background-color: cyan;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px;
+}
+.linkButton a:hover {
+  background-color: orange;
+  color: white;
 }
 
-#NcGames {
+.linkButton {
   margin-bottom: 25px;
+}
+h5 {
+  text-align: left;
+  margin: 20px;
+}
+h4{
+  margin: 20px;
+}
+p {
+  margin: 10px;
+}
+section {
+  scroll-margin-top: 2em;
+}
+#About h2{
+  margin-top: 70px;
+  scroll-margin-top: 80px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -233,4 +265,27 @@ img {
   h1 {
     margin: 30px;
   }
+}
+.techContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+}
+.techContainer div {
+  flex-basis: 200px; 
+  flex-shrink: 1;
+  flex-shrink: 1;
+}
+.doubleLinks{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.doubleLinks div {
+  flex-basis: 200px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 15px;
 }
