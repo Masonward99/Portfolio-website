@@ -1,4 +1,4 @@
-import CV from '../MasonWardCV.pdf'
+import CV from '../MasonWardcv.pdf'
 import CVLogo from '../assets/CV.png'
 import github from '../assets/github-logo.png'
 import email from '../assets/Email.png'
