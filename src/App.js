@@ -11,7 +11,7 @@ function App() {
       <div className='heroDiv'>
         <div>
           <h1>Mason Ward</h1>
-          <h3>Junior developer</h3>
+          <h3>Junior Developer</h3>
           <a href='#Projects'>See my work</a>
         </div>
       </div>
