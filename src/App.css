@@ -30,10 +30,10 @@
 }
 .heroDiv div {
  margin: auto;
- backdrop-filter: blur(50px);
- padding: 20px;
+ backdrop-filter: blur(10px);
  border: radius 5px; 
  width: calc(100% - 40px);
+ height: 280px
 }
 header {
   background-color: rgb(22, 20, 20);
@@ -108,10 +108,10 @@ header {
   margin: auto;
   margin-bottom: 20px;
 }
-#App-Footer h2 {
+/* #App-Footer h2 {
   font-size: 3em;
   margin: 10px;
-}
+} */
 html {
   scroll-behavior: smooth;
 }
@@ -174,7 +174,8 @@ html {
   text-align: center;
 }
 h1 {
-  font-size: 4em;
+  font-size: 100px;
+  font-weight: 900;
   text-align: center;
   color: white;
   height: max-content;
@@ -182,6 +183,27 @@ h1 {
   margin: auto;
 }
 
+h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 30px;
+}
+h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 35px;
+  font-weight: 700;
+}
+p,  li{
+  font-size: 25px;
+  font-weight: 400;
+}
+i {
+  font-size: 18px;
+  text-align: center;
+}
 .logoImage {
   height: 80px;
   width: 80px;
@@ -200,9 +222,6 @@ h1 {
 }
 .aboutLinks div {
   max-width: 80px;
-}
-.aboutLinks img:hover{
-  border:2px solid orange;
 }
 img {
   max-width: 100%;
@@ -288,4 +307,104 @@ section {
   flex-grow: 1;
   flex-shrink: 1;
   margin: 15px;
+}
+#hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+  #hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+  }
+  #hamburger div {
+    display: none;
+    color: white;
+  }
+  .normalHeader {
+    display: none !important;
+  }
+  #hamburger div.visible {
+    position: fixed;
+    top: 0;
+    left:  0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  #hamburger ul {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    flex-grow: 3;
+    justify-content: space-around;
+    padding: 0px;
+  }
+
+  #hamburger li {
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    flex-grow: 1;
+    padding: 0px;
+  }
+  #hamburger h3{
+    font-size: 50px;
+    line-height: 50px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 20px;
+  }
+  #hamburger div.visible div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+  }
+  #hamburger a :hover{
+    background-color: white;
+    color: black;
+  }
+  #hamburger p {
+    line-height: 50px;
+    font-size: 50px;
+    margin:auto;
+    text-align: center;
+  }
+  #hamburger .headingDiv {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100px;
+    flex-grow: 1;
+  }
+  h1 {
+    font-size: 55px;
+    margin: auto;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  #hamburger span{
+    display: block;
+      width: 35px;
+      height: 3px;
+      margin: 6px auto;
+      background-color: white;
+  }
+  p {
+    padding: 10px;
+  }
 }

@@ -8,26 +8,48 @@ function NcGames() {
     
     return (
       <section id="NcGames">
-        <h3>Nc Games</h3>
+        <h3>Board Games Review Website</h3>
         <img src={pic} alt="ncGames homepage" />
-        <div className='doubleLinks'>
+        <div className="doubleLinks">
           <div>
             <h4>Frontend</h4>
-            <LinkButtons hostedLink={'https://nc-games-mw.netlify.app/'} codeLink={"https://github.com/Masonward99/FE_nc_games"}/>
+            <LinkButtons
+              hostedLink={"https://nc-games-mw.netlify.app/"}
+              codeLink={"https://github.com/Masonward99/FE_nc_games"}
+            />
           </div>
           <div>
             <h4>Backend</h4>
-            <LinkButtons codeLink={"https://github.com/Masonward99/nc_games"} hostedLink={"https://nc-games-83l3.onrender.com/api"}/>
+            <LinkButtons
+              codeLink={"https://github.com/Masonward99/nc_games"}
+              hostedLink={"https://nc-games-83l3.onrender.com/api"}
+            />
           </div>
         </div>
-        <p>Due to how this project is hosted it may take a bit longer than usual to load when first opened.</p>
+        <p>
+          <i>
+            Due to how this project is hosted, it may take a bit longer than
+            usual to load when first opened.
+          </i>
+        </p>
+        <p>
+          This a website that allows users to post reviews of board games and
+          comment on reviews that other users have posted. This project utilises
+          Firebase authentication to allow users to create accounts.
+        </p>
         <h4>Features</h4>
         <ul>
-          <li>Board game review website created using React for the frontend</li>
+          <li>
+            Board game review website created using React for the frontend
+          </li>
           <li>Backend was created using test driven development</li>
-          <li>Backend rest api that uses crud to store data</li>
-          <li>Uses firebase authentication to allow users to login or signup</li>
-          <li>Allows the user to upload a profile image; which is stored using firebase storage</li>
+          <li>
+            Uses firebase authentication to allow users to login or signup
+          </li>
+          <li>
+            Allows the user to upload a profile image; which is stored using
+            firebase storage
+          </li>
         </ul>
         <h4>Tech Stack</h4>
         <div className="techContainer">

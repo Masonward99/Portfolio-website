@@ -1,4 +1,8 @@
-function Header(){
+import { useState } from "react";
+import Hamburger from "./hamburger";
+
+function Header() {
+  let [hamburgerOpen, setHamburgerOpen] = useState(false)
     return (
       <header >
         <div className="App-header">
@@ -7,7 +11,8 @@ function Header(){
             <p>Mason Ward</p>
           </div>
         </a>
-        <ul>
+          <Hamburger hamburgerOpen={hamburgerOpen} setHamburgerOpen={setHamburgerOpen} />  
+        <ul className="normalHeader">
           <li className="Header-Item">
             <a href="#About" className="Header-Item">
               <div>About</div>

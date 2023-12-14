@@ -11,12 +11,11 @@ function App() {
       <div className='heroDiv'>
         <div>
           <h1>Mason Ward</h1>
-          <h2>Junior developer</h2>
+          <h3>Junior developer</h3>
           <a href='#Projects'>See my work</a>
         </div>
       </div>
-      <main className="App-Main">
-        
+      <main className="App-Main">     
         <About />
         <Projects/>
       </main>
