@@ -268,9 +268,8 @@ p {
 section {
   scroll-margin-top: 2em;
 }
-#About h2{
-  margin-top: 70px;
-  scroll-margin-top: 80px;
+#About h2, #Projects h2{
+  padding-top: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -318,6 +317,7 @@ section {
     width: 50px;
     height: 50px;
     background-color: black;
+    font-family: 'Lato', sans-serif;
   }
   #hamburger div {
     display: none;
@@ -331,7 +331,7 @@ section {
     top: 0;
     left:  0px;
     width: 100vw;
-    height: 100vh;
+    height: 350px;
     background-color: black;
     padding: 0px 10px;
     display: flex;
@@ -355,7 +355,7 @@ section {
     padding: 0px;
   }
   #hamburger h3{
-    font-size: 50px;
+    font-size: 40px;
     line-height: 50px;
     flex-basis: 100px;
     flex-grow: 1;
@@ -373,10 +373,10 @@ section {
     color: black;
   }
   #hamburger p {
-    line-height: 50px;
-    font-size: 50px;
+    line-height: 35px;
+    font-size: 35px;
     margin:auto;
-    text-align: center;
+    text-align: left;
   }
   #hamburger .headingDiv {
     display: flex;

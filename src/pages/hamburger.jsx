@@ -9,7 +9,7 @@ function Hamburger({hamburgerOpen, setHamburgerOpen}) {
             <span></span>
             <div className={hamburgerOpen ? "visible" : null}>
             <div className="headingDiv">
-                 <h3>Close</h3>   
+                 <h3>Mason Ward</h3>   
             </div>
           <ul>
             <li className="Burger-Item">
